@@ -6,7 +6,7 @@ express        = require("express"),
 app            = express();
 
 // APP CONFIG
-mongoose.connect("mongodb://amit:amit12345@cluster0-yzi3u.mongodb.net/test?retryWrites=true&w=majority");
+mongoose.connect("mongodb+srv://amit:admane@cluster0-6wfda.mongodb.net/test?retryWrites=true&w=majority");
 
 app.set("view engine", "ejs");
 app.use(express.static("public"));
